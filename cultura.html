@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cultura - Santiago Huajolotitlán</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <section class="cultura-container">
+        <header class="cultura-header">
+            <h1>Cultura y Tradiciones</h1>
+            <p>Santiago Huajolotitlán: Tierra de historia y fe en la Mixteca Oaxaqueña</p>
+        </header>
+
+        <div class="acordeon">
+            <!-- Los elementos se generan dinámicamente con JS o puedes dejarlos fijos -->
+            <div class="item" id="item-danza">
+                <div class="item-header" onclick="toggleCultura('danza')">
+                    <span>🎭 Danza de los Diablos</span>
+                    <i class="flecha">+</i>
+                </div>
+                <div class="item-content">
+                    <p>Una expresión vibrante donde la música del violín y la guitarra guía a los danzantes con máscaras talladas a mano. Es el alma de nuestras festividades.</p>
+                </div>
+            </div>
+
+            <div class="item" id="item-gastronomia">
+                <div class="item-header" onclick="toggleCultura('gastronomia')">
+                    <span>🍲 Gastronomía Tradicional</span>
+                    <i class="flecha">+</i>
+                </div>
+                <div class="item-content">
+                    <p>Desde el pozole de fiesta hasta el mole negro. No puedes visitar Huajolotitlán sin probar las tortillas hechas a mano y el chocolate de agua.</p>
+                </div>
+            </div>
+
+            <div class="item" id="item-historia">
+                <div class="item-header" onclick="toggleCultura('historia')">
+                    <span>⛪ Patrimonio Histórico</span>
+                    <i class="flecha">+</i>
+                </div>
+                <div class="item-content">
+                    <p>Nuestro templo parroquial del siglo XVIII es un monumento a la arquitectura colonial y la devoción de nuestra gente a Santiago Apóstol.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script2.js"></script>
+</body>
+</html>

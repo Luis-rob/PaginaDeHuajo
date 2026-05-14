@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santiago Huajolotitlán - Inicio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="cuerpo">
+
+    <header>
+        <img src="img/logo.png" alt="Logo" class="logo-esquina">
+        <h1 id="pru">Santiago Huajolotitlán</h1>
+        
+        <!-- Controles de Accesibilidad -->
+        <div class="accesibilidad">
+            <span>Tamaño:</span>
+            <button onclick="cambiarTamano('disminuir')">A-</button>
+            <button onclick="cambiarTamano('aumentar')">A+</button>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="inicio.html" class="active">Inicio</a></li>
+                <li><a href="cultura.html">Cultura</a></li>
+                <li><a href="contacto.html">Contacto y recomendaciones</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h2>Historia</h2>
+                <h3>Los primeros pobladores fueron los mixtecos Ñuine, aproximadamente en el año de 350. Formó parte del reino de Coixtlahuaca, como lo demuestra el Lienzo de Coixtlahuaca, donde se asienta un glifo "cerro del guajolote sagrado rio de la roca pata de venado".
+En el año de 1916, Huajolotitlán fue atravesado por grupos zapatistas, uno de estos, el general Cástulo Villagómez, llegó a la comunidad exigiendo reses y maíz para alimentación de sus soldados y caballos, y al encontrar negativas de algunas personas prendió fuego a la casa del diezmo y algunas casas de la población. Sin embargo la defensa del pueblo estuvo comandada por un oriundo de la población llamado Irineo Ramírez González. Finalmente, los pobladores lograron expulsar a aquel grupo zapatista.</h3>
+                <button class="btn-principal" onclick="saludoEspecial()">Conocer más</button>
+            </div>
+        </section>
+
+        <section class="info-grid">
+            <article class="card">
+                <div class="card-icon">🍲</div>
+                <h3>Gastronomía</h3>
+                <ul>
+                    <li><strong>Chileajo:</strong> Guiso de chiles y ajo.</li>
+                    <li><strong>Pozole:</strong> Tradición en cada grano.</li>
+                    <li><strong>Mole:</strong> El alma de las bodas.</li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <div class="card-icon">🎭</div>
+                <h3>Tradiciones</h3>
+                <p>Desde la Danza de los Diablos hasta nuestras calendas patronales en julio. Una historia viva llena de color y fe.</p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Luis Roberto Navarro Ortiz</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

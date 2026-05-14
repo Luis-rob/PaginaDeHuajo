@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendaciones - Santiago Huajolotitlán</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+
+    <section class="form-container">
+        <div class="form-box">
+            <h1>Tus Recomendaciones</h1>
+            <p>¿Tienes algún lugar o tradición de Huajolotitlán que quieras compartir?</p>
+            
+            <form id="formRecomendacion">
+                <div class="input-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Tu nombre" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="tipo">Categoría</label>
+                    <select id="tipo">
+                        <option value="lugar">Lugar Turístico</option>
+                        <option value="comida">Gastronomía</option>
+                        <option value="evento">Evento Cultural</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="mensaje">Tu Recomendación</label>
+                    <textarea id="mensaje" rows="5" placeholder="Escribe aquí los detalles..." required></textarea>
+                </div>
+
+                <button type="submit" id="btnEnviar">Enviar Mensaje</button>
+            </form>
+
+            <div id="mensajeExito" class="hidden">
+                <p>¡Gracias! Tu recomendación ha sido enviada con éxito.</p>
+                <button onclick="resetearFormulario()">Mandar otro</button>
+            </div>
+        </div>
+    </section>
+
+    <script src="script3.js"></script>
+</body>
+</html>
