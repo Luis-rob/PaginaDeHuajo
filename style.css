@@ -25,15 +25,6 @@ header {
     position: relative;
 }
 
-.logo-esquina {
-    position: absolute;
-    top: 10px;
-    left: 20px;
-    width: 350px; /* Ajustado para que no tape el texto */
-    height: auto;
-    filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.5));
-}
-
 .accesibilidad {
     margin: 10px 0;
 }
